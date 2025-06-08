@@ -18,7 +18,7 @@ describe('Course Search & Filtering', () => {
 
   })
 
-  it.only('Apply filters for course type, verify the results match the applied filters', () => {
+  it('Apply filters for course type, verify the results match the applied filters', () => {
     searchPage.open()
       .applyCertificateTypeFilter()
       .verifyFilteredResults();

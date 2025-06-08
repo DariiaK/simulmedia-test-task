@@ -24,7 +24,7 @@ Testing suite  for Alison.com built with Cypress+TypeScript using POM
 - Run tests in headed mode:
 
   ```bash
-  mpn run cy:open
+  npm run cy:open
   ```
 
 - Run headless tests (CI):
